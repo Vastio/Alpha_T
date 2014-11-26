@@ -3,6 +3,10 @@ html, body {
 	height: 100%;
 }
 
+a {
+	text-decoration: none;
+}
+
 hr {
 	height: 1px;
 	width: 50%;
