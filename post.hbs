@@ -1,0 +1,34 @@
+{{!< default}}
+<div class="main-container">
+	<article class="post">
+	{{#post}}
+		<header class="post-header">
+		  <h2>{{title}}</h2>
+		</header>
+		<section class="post-full">
+			{{content}}
+		</section>
+		<footer class="post-meta">
+		  <div class="foot-meta-container">
+		  	<div class="row">
+		  	 <div class="col-md-6">
+		  	 	{{! Show tags }}
+		  	 	<p>By {{author}} in 
+		  	 	<ul class="list-inline">
+		  	 	  {{#foreach tags}}
+		  	 	  <li class="tags"><span class="label label-primary"><a href="{{url}}">{{name}}</a></span></li>
+		  	 	  {{/foreach}}
+		  	 	</ul></p> 
+		  	 </div>
+		  	 <div class="col-md-6 text-right">
+		  	  <i class="fa fa-calendar-o"></i>
+		  	  <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+		  	 </div>
+		   </div>
+		  </div>
+		</footer>
+	{{/post}}
+	{{! Start Disqus }}
+	{{! End Disqus }} 
+	</article>
+</div>

@@ -117,6 +117,26 @@ hr {
 	text-indent: 1px;
 }
 
+.main-container .post .post-meta {
+	font-size: 14px;
+	text-indent: 2px;
+	letter-spacing: 1px;
+}
+
+.main-container .post .post-meta .tags a {
+	color:  white;
+}
+
+.main-container .post .post-meta .tags a:hover {
+	text-decoration: none;
+	color: #f38218;
+}
+
+.main-container .post .post-meta time {
+	padding-right: 10px;
+	padding-left: 4px;
+}
+
 .blog-footer {
 	padding-top: 2%;
 	background-color: #363F45;
