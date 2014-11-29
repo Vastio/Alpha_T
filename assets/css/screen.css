@@ -1,0 +1,141 @@
+html, body {
+	margin: 0 auto;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #f38218;
+}
+
+hr {
+	height: 1px;
+	width: 50%;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0) 22.3%, rgba(0,0,0,0.20) 50%, rgba(0,0,0,0) 73.6%);
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,0) 22.3%, rgba(0,0,0,0.20) 50%, rgba(0,0,0,0) 73.6%);
+	background-image: -ms-linear-gradient(left, rgba(0,0,0,0) 22.3%, rgba(0,0,0,0.20) 50%, rgba(0,0,0,0) 73.6%);
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0) 22.3%, rgba(0,0,0,0.20) 50%, rgba(0,0,0,0) 73.6%);
+	background-image: linear-gradient(to right, rgba(0,0,0,0) 22.3%, rgba(0,0,0,0.20) 50%, rgba(0,0,0,0) 73.6%);
+}
+
+.intro {
+	height: 100%;
+	min-height: 100%;
+	background-color: #363F45;
+	font-family:'Waiting for the Sunrise', cursive;
+	/*color: #f38218;*/
+	padding-top: 3%;
+}
+
+.intro .up-intro {
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+
+.intro .up-intro .fa-rss-square {
+	background: #363F45;
+	color: #f38218;
+}
+
+.intro .up-intro .fa-rss-square:hover {
+	color: white;
+}
+
+.intro .name {
+	padding-top: 7%;
+	padding-bottom: 2%;
+}
+
+.intro .name h1 {
+	padding-top: 5%;
+	font-size: 58px;
+	color: #f38218;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+.intro .message {
+	text-align: center;
+	color: white;
+	font-size: 22px;
+	letter-spacing: 2px;
+}
+
+.intro .button {
+	text-align: center;
+	position: static;
+	padding-top: 15%;
+	border-color: #463a3a;
+}
+
+.intro .button .btn-default {
+	border-color: #363F45;
+	border-style: solid;
+	color: #f38218;
+	background-color: #363F45;
+}
+
+.intro .button .btn-default:hover {
+	border-color: #f38218;
+	color: white;
+}
+
+.main-container {
+	padding: 5% 7% 3%;
+	font-family: 'Poiret One', cursive;
+}
+
+.main-contaoner article {
+	position: relative;
+	top: 10px;
+	right: 20px;
+	bottom: 10px;
+	left: 20px;
+}
+
+.main-container .post {
+	font-size: 18px;
+	padding: 10px 10% 15px;
+}
+
+.main-container .post .post-header {
+	padding: 5px 3px;
+}
+
+.main-container .post .post-header h2 {
+	font-size: 32px;
+	letter-spacing: 1px;
+	text-align: left;
+	font-weight: bold;
+	font-style: italic;
+	text-indent: 1px;
+}
+
+.blog-footer {
+	padding-top: 2%;
+	background-color: #363F45;
+	font-family:'Waiting for the Sunrise', cursive;
+}
+
+.blog-footer .social {
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+
+.blog-footer .license {
+	color: white;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-align: center;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 10px;
+}
