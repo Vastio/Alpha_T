@@ -28,15 +28,18 @@
 
 	{{! Page Header: partials/page_header }}
 	{{> page_header}}
-
-	{{! ***** Body ***** }}
-	{{{body}}}
-
-	{{! Page Footer: partials/page_footer }}
-	{{> page_footer }}
 	
-	{{ghost_foot}}
+	{{! Blog section }}
+	<div class="blog" id="blog-section">
+
+	  {{! ***** Body ***** }}
+	  {{{body}}}
+
+	  {{! Page Footer: partials/page_footer }}
+	  {{> page_footer }}
 	
+	  {{ghost_foot}}
+	</div>
 <!-- JavaScript include -->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script src="{{asset "js/scripts.js"}}" type="text/javascript"></script>
