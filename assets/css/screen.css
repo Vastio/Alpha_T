@@ -117,10 +117,17 @@ hr {
 	text-indent: 1px;
 }
 
+.main-container .post .post-header time {
+	padding-left: 10px;
+	padding-top: 5px;
+	font-style: italic;
+	font-size: 14px;
+}
+
 .main-container .post .post-full {
 	text-indent: 1px;
 	word-spacing: 1px;
-	padding-top: 3px;
+	padding-top: 10px;
 	padding-bottom: 20px;
 }
 
