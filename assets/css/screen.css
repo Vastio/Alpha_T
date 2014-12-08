@@ -27,10 +27,19 @@ code {
 	color: #a00000;
 }
 
+.intro-background {
+	height: 100%;
+	min-height: 100%;
+	background: url(../images/background.jpg) 50% 50% no-repeat fixed;
+	background-size: 100% 100%;
+}
+
+
 .intro {
 	height: 100%;
 	min-height: 100%;
 	background-color: #363F45;
+	opacity: 0.5;
 	font-family:'Waiting for the Sunrise', cursive;
 	/*color: #f38218;*/
 	padding-top: 3%;
