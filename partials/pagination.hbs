@@ -3,10 +3,14 @@
 <nav class="pagination" role="navigation">
 	<ul class="pager">
 	  {{#if prev}}
-	    <li><a class="newer-posts" href="{{page_url prev}}">&larr; Newest</a></li>
+	    <li class="active"><a class="newer-posts" href="{{page_url prev}}#blog-section"> &larr; Newest</a></li>
+	  {{else}}
+	  	<li class="disabled"><a class="newer-posts disabled" href="#"> &larr; Newest</a></li>
 	  {{/if}}
 	  {{#if next}}
-	    <li><a class="older-posts" href="{{page_url next}}">Older &rarr;</a></li>
+	    <li class="active"><a class="older-posts" href="{{page_url next}}#blog-section"> Older &rarr;</a></li>
+	  {{else}}
+	  	<li class="disabled"><a class="older-posts disabled" href="#"> Older &rarr;</a></li>
 	  {{/if}}
 	</ul>
 </nav>
