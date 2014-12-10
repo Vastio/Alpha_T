@@ -1,7 +1,9 @@
 {{!< default}}
 
 {{! Page Header: partials/page_intro }}
-{{> page_intro }}
+{{#is "home"}}
+	{{> page_intro }}
+{{/is}}
 
 {{! Blog section }}
 <div class="blog" id="blog-section"> <!-- Blog section -->
