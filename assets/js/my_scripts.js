@@ -43,7 +43,6 @@ $(function() {
 					$next.addClass('current');
 				}
 			}
-				
 			
 			event.preventDefault();
 			setTimeout(function(){

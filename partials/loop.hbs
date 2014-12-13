@@ -1,13 +1,4 @@
-{{!< default}}
-
-{{! Page Header: partials/page_intro }}
-{{#is "home"}}
-	{{> page_intro }}
-{{/is}}
-
-{{! Blog section }}
-<div class="blog" id="blog-section"> <!-- Blog section -->
-<div class="main-container"> <!-- Main container -->
+{{! Post loop }}
 
 {{! Posts enum }}
 {{#foreach posts}}
@@ -42,5 +33,3 @@
 {{/foreach}}
 
 {{pagination}}
-</div> <!-- End Main container -->
-</div> <!-- End blog section -->
