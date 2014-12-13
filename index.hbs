@@ -1,0 +1,16 @@
+{{!< default}}
+
+<header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
+	prova
+</header>
+
+
+{{! Blog section }}
+<div class="blog" id="blog-section"> <!-- Blog section -->
+<div class="main-container"> <!-- Main container -->
+
+	{{! partials/loop.hbs }}
+	{{> "loop" }}
+
+</div> <!-- End Main container -->
+</div> <!-- End blog section -->
