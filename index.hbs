@@ -3,8 +3,8 @@
 <header class="main-header-background {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
 <div class="main-header">
 	<div class="main-header-content">
-		<h1 class="title">{{@blog.title}}</h1>
-		<div class="message">
+		<h1 class="title" id="title" style="display:none;">{{@blog.title}}</h1>
+		<div class="message" id="description" style="display:none;">
 			<p>{{@blog.description}}</p>
 		</div>
 		<div class="button">

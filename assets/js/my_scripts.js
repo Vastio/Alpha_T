@@ -1,4 +1,10 @@
-// fade in title and message
+// fade in title and message when load page
+$(document).ready(function(){	
+	$('#title').fadeIn(2000);
+	$('#description').fadeIn(3000);
+});
+
+// fade in title and message when scroll page
 var divs = $('.title, .message');
 $(window).scroll(function(){
    if($(window).scrollTop() < 5){
