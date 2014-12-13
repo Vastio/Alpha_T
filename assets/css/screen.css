@@ -22,38 +22,80 @@ hr {
 	background-image: linear-gradient(to right, rgba(0,0,0,0) 22.3%, rgba(0,0,0,0.20) 50%, rgba(0,0,0,0) 73.6%);
 }
 
-code {
-	font: italic 18px 'Poiret One', cursive;
-	color: #a00000;
+.main-header-background {
+	position: relative;
+	height: 100%;
+	min-height: 100%;
+	width: 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 .main-header {
 	height: 100%;
-	width: 100%;
-	display: table;
-	/*min-height: 100%;*/
-	background-size: cover;;
-	position: relative;
-	-moz-box-shadow: 0 0 1px #c9c3c3;
-	box-shadow: 0 0 1px #c9c3c3;
+	min-height: 100%;
+	opacity: 0.6;
+	background-color: #363F45;
+}
+
+.main-header-content {
+	position: absolute;
+	top: 35%;
+	bottom: 30%;
+	left: 25%;
+	right: 25%;
+	font-family:'Waiting for the Sunrise', cursive;
+	text-align: center;
+}
+
+.main-header-content h1 {
+	padding-top: 5%;
+	font-size: 58px;
+	color: #ff8615;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+.main-header-content .message {
+	text-align: center;
+	color: white;
+	font-size: 22px;
+	letter-spacing: 2px;
+}
+
+.main-header-content .button {
+	text-align: center;
+	position: static;
+	padding-top: 30%;
+	border-color: #463a3a;
+}
+
+.main-header-content .button .btn-default {
+	border-color: #363F45;
+	border-style: solid;
+	color: #f38218;
+	background-color: #363F45;
+}
+
+.main-header-content .button .btn-default:hover {
+	border-color: #f38218;
+	color: white;
 }
 
 .main-container {
-	padding: 5% 7% 3%;
-	font-family: 'Poiret One', cursive;
-}
-
-.main-contaoner article {
+	width: 75%;
 	position: relative;
-	top: 10px;
-	right: 20px;
-	bottom: 10px;
-	left: 20px;
+	top: 7%;
+	bottom: -7%;
+	right: -7%;
+	left: 7%;
+	font-family: 'Poiret One', cursive;
 }
 
 .main-container .post {
 	font-size: 18px;
-	padding: 10px 10% 15px;
+	padding: 30px 7% 15px;
 }
 
 .main-container .post .post-header {
@@ -90,7 +132,7 @@ code {
 }
 
 .main-container .post .post-meta .tags a {
-	color:  white;
+	color: white;
 }
 
 .main-container .post .post-meta .tags a:hover {
@@ -103,44 +145,9 @@ code {
 	padding-left: 4px;
 }
 
-.main-container .pagination {	
+.main-container .pagination {
 	align-content: center;
 	padding-right: 20px;
 	padding-left: 20px;
 	width: 100%;
-}
-
-.post-nav {	
-	margin: 15px 15px 0;
-	padding-top: 30px;
-	padding-right: 4px;
-	padding-left: 4px;
-}
-
-.post-nav a:hover {
-	text-decoration: none;
-	color: #f38218;
-}
-
-.blog-footer {
-	padding-top: 1%;
-	background-color: #363F45;
-	font-family:'Waiting for the Sunrise', cursive;
-}
-
-.blog-footer .social {
-	padding-right: 50px;
-	padding-left: 50px;
-	padding-bottom: 15px;
-	padding-top: 15px;
-}
-
-.blog-footer .license {
-	color: white;
-	font-size: 14px;
-	letter-spacing: 1px;
-	text-align: center;
-	padding-right: 50px;
-	padding-left: 50px;
-	padding-bottom: 15px;
 }

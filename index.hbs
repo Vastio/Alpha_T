@@ -1,16 +1,23 @@
 {{!< default}}
 
-<header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
-	prova
+<header class="main-header-background {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
+<div class="main-header">
+	<div class="main-header-content">
+		<h1 class="title">{{@blog.title}}</h1>
+		<div class="message">
+			<p>{{@blog.description}}</p>
+		</div>
+		<div class="button">
+			<a href="#blog-section"><button type="button" class="btn btn-default"><i class="fa fa-angle-down fa-lg"></i></button></a>
+		</div>
+	</div>
+</div>
 </header>
 
-
 {{! Blog section }}
-<div class="blog" id="blog-section"> <!-- Blog section -->
-<div class="main-container"> <!-- Main container -->
+<div class="main-container" id="blog-section"> <!-- Main container -->
 
 	{{! partials/loop.hbs }}
 	{{> "loop" }}
 
 </div> <!-- End Main container -->
-</div> <!-- End blog section -->

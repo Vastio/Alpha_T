@@ -1,3 +1,13 @@
+// fade in title and message
+var divs = $('.title, .message');
+$(window).scroll(function(){
+   if($(window).scrollTop() < 5){
+         divs.stop(true,true).fadeIn(1500);
+   } else {
+         divs.stop(true,true).fadeOut(1500);
+   }
+});
+
 $(document).ready(function(){
 	$('a[href^="#"]').on('click',function (e) {
 	    e.preventDefault();
@@ -43,6 +53,7 @@ $(function() {
 					$next.addClass('current');
 				}
 			}
+				
 			
 			event.preventDefault();
 			setTimeout(function(){
