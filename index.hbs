@@ -8,16 +8,19 @@
 			<p>{{@blog.description}}</p>
 		</div>
 		<div class="button">
-			<a href="#blog-section"><button type="button" class="btn btn-default"><i class="fa fa-angle-down fa-lg"></i></button></a>
+			<a href="#blog-section" class="btn btn-default"><i class="fa fa-angle-down fa-lg"></i></a>
 		</div>
 	</div>
 </div>
 </header>
 
 {{! Blog section }}
-<div class="main-container" id="blog-section"> <!-- Main container -->
+<div class="main-container-top" id="blog-section">
+	<a href="http://{{url}}/rss"><i class="fa fa-rss fa-2x fa-border"></i></a>
+</div>
+<div class="main-container"> <!-- Main container -->
 
 	{{! partials/loop.hbs }}
 	{{> "loop" }}
-
+	
 </div> <!-- End Main container -->
