@@ -1,22 +1,28 @@
 {{!< default}}
 
-<header class="main-header-background {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
-<div class="main-header">
+<header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
 	<div class="main-header-content">
-		<h1 class="title" id="title" style="display:none;">{{@blog.title}}</h1>
+		<div class="title" id="title" style="display:none;">{{@blog.title}}</div>
 		<div class="message" id="description" style="display:none;">
 			<p>{{@blog.description}}</p>
 		</div>
 		<div class="button">
-			<a href="#blog-section" class="btn btn-default"><i class="fa fa-angle-down fa-lg"></i></a>
+			<a href="#blog-section" class="btn btn-default" data-offset="-45"><i class="fa fa-angle-down fa-lg"></i></a>
 		</div>
 	</div>
-</div>
 </header>
 
 {{! Blog section }}
 <div class="main-container-top" id="blog-section">
-	<a href="http://{{url}}/rss"><i class="fa fa-rss fa-2x fa-border"></i></a>
+	<div class="row">
+	<div class="col-sm-6 col-md-6 col-lg -6 text-left">
+		{{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}">
+		<img src="{{@blog.logo}}" alt="Blog Logo" class="img-rounded img-responsive"/></a>{{/if}}
+	</div>
+	 <div class="col-sm-6 col-md-6 col-lg -6 text-right">
+		<a href="http://{{url}}/rss"><i class="fa fa-rss fa-2x fa-border"></i></a>
+	</div>
+	</div>
 </div>
 <div class="main-container"> <!-- Main container -->
 

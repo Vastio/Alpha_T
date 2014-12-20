@@ -22,7 +22,7 @@ hr {
 	background-image: linear-gradient(to right, rgba(0,0,0,0) 22.3%, rgba(0,0,0,0.20) 50%, rgba(0,0,0,0) 73.6%);
 }
 
-.main-header-background {
+/* .home-template .main-header-background {
 	position: relative;
 	height: 100%;
 	min-height: 100%;
@@ -30,16 +30,29 @@ hr {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-}
+} */
 
 .main-header {
+	position: relative;
 	height: 100%;
-	min-height: 100%;
-	opacity: 0.6;
-	background-color: #363F45;
+	width: 100%;
+	/* min-height: 100%; */
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/* background-color: #363F45; */
+}
+
+.archive-template .main-header {
+	max-height: 40%;
 }
 
 .main-header-content {
+	font-family:'Waiting for the Sunrise', cursive;
+	text-align: center;
+}
+
+.home-template .main-header-content {
 	position: absolute;
 	top: 35%;
 	bottom: 30%;
@@ -49,7 +62,7 @@ hr {
 	text-align: center;
 }
 
-.main-header-content h1 {
+.main-header-content .title {
 	padding-top: 5%;
 	font-size: 58px;
 	color: #ff8615;
@@ -64,21 +77,25 @@ hr {
 	letter-spacing: 2px;
 }
 
-.main-header-content .button {
+.archive-template .main-header-content .button {
+	display: none;
+}
+
+.home-template .main-header-content .button {
 	text-align: center;
-	position: static;
+	position: relative;
 	padding-top: 30%;
 	border-color: #463a3a;
 }
 
-.main-header-content .button .btn-default {
+.home-template .main-header-content .button .btn-default {
 	border-color: #363F45;
 	border-style: solid;
 	color: #f38218;
-	background-color: #363F45;
+	background-color: transparent;
 }
 
-.main-header-content .button .btn-default:hover {
+.home-template .main-header-content .button .btn-default:hover {
 	border-color: #f38218;
 	color: red;
 }
@@ -86,8 +103,12 @@ hr {
 .main-container-top {
 	padding-top: 35px;
 	padding-right: 50px;
-	padding-left: 10px;
-	text-align: right;
+	padding-left: 50px;
+}
+
+.main-container-top img {
+	width: 48px;
+	height: 48px;
 }
 
 .main-container-top .fa-border {
@@ -173,6 +194,12 @@ hr {
 	padding-right: 20px;
 	padding-left: 20px;
 	width: 100%;
+}
+
+.post-header {
+	padding-top: 2%;
+	padding-right: 2%;
+	padding-left: 2%;
 }
 
 .blog-footer {
