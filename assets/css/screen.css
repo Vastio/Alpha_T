@@ -108,8 +108,8 @@ hr {
 }
 
 .main-container-top img {
-	width: 48px;
-	height: 48px;
+	width: 45px;
+	height: 45px;
 }
 
 .main-container-top .fa-border {
@@ -140,7 +140,7 @@ hr {
 
 .main-container .post {
 	font-size: 18px;
-	padding: 30px 7% 15px;
+	padding: 30px 7% 60px;
 }
 
 .main-container .post .post-header {
