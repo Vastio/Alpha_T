@@ -90,13 +90,14 @@ hr {
 
 .home-template .main-header-content .button .btn-default {
 	border-color: #363F45;
-	border-style: solid;
+	border-style: hidden;
 	color: #f38218;
 	background-color: transparent;
 }
 
 .home-template .main-header-content .button .btn-default:hover {
 	border-color: #f38218;
+	border-style: solid;
 	color: red;
 }
 
@@ -235,9 +236,9 @@ hr {
 	color:  white;
 }
 
-.blog-footer .social .fa-envelope {
-	background-color: gray;
-	color: black;
+.blog-footer .social .fa-envelope-o {
+	background-color: #00002b;
+	color: white;
 }
 
 .blog-footer .license {
