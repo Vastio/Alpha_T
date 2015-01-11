@@ -64,7 +64,7 @@ hr {
 
 .main-header-content .title {
 	padding-top: 5%;
-	font-size: 58px;
+	font-size: 68px;
 	color: #ff8615;
 	letter-spacing: 3px;
 	text-align: center;
@@ -73,7 +73,7 @@ hr {
 .main-header-content .message {
 	text-align: center;
 	color: white;
-	font-size: 22px;
+	font-size: 24px;
 	letter-spacing: 2px;
 }
 
@@ -91,14 +91,14 @@ hr {
 .home-template .main-header-content .button .btn-default {
 	border-color: #363F45;
 	border-style: hidden;
-	color: #f38218;
+	color: white;
 	background-color: transparent;
 }
 
 .home-template .main-header-content .button .btn-default:hover {
 	border-color: #f38218;
 	border-style: solid;
-	color: red;
+	color: #f38218;
 }
 
 .main-container-top {
@@ -140,7 +140,7 @@ hr {
 
 .main-container .post {
 	font-size: 18px;
-	padding: 30px 7% 60px;
+	padding: 30px 7%;
 }
 
 .main-container .post .post-header {

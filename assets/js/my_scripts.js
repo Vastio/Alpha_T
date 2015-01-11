@@ -1,18 +1,22 @@
 // fade in title and message when load page
 $(document).ready(function(){	
-	$('#title').fadeIn(2000);
-	$('#description').fadeIn(3000);
+	$('#div1').fadeIn(2000);
+	$('#div2').fadeIn(3000);
 });
 
 // fade in title and message when scroll page
-var divs = $('.title, .message');
-$(window).scroll(function(){
-   if($(window).scrollTop() < 5){
-         divs.stop(true,true).fadeIn(1500);
-   } else {
-         divs.stop(true,true).fadeOut(1500);
-   }
+$(window).scroll(function () {
+    $('[id^="div"]').each(function () {
+        if (($(this).offset().top - $(window).scrollTop()) < 20) {
+            $(this).stop().fadeTo(100, 0);
+        } else {
+            $(this).stop().fadeTo('fast', 1);
+        }
+    });
 });
+
+
+
 
 $(document).ready(function(){
 	$('a[href^="#"]').on('click',function (e) {
