@@ -14,7 +14,7 @@ a:hover {
 
 hr {
 	height: 1px;
-	width: 50%;
+	width: 55%;
 	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0) 22.3%, rgba(0,0,0,0.20) 50%, rgba(0,0,0,0) 73.6%);
 	background-image: -moz-linear-gradient(left, rgba(0,0,0,0) 22.3%, rgba(0,0,0,0.20) 50%, rgba(0,0,0,0) 73.6%);
 	background-image: -ms-linear-gradient(left, rgba(0,0,0,0) 22.3%, rgba(0,0,0,0.20) 50%, rgba(0,0,0,0) 73.6%);
@@ -143,7 +143,7 @@ hr {
 
 .main-container .post {
 	font-size: 18px;
-	padding: 30px 7%;
+	padding: 25px 7%;
 }
 
 .main-container .post .post-header {
@@ -213,6 +213,7 @@ hr {
 }
 
 .blog-footer {
+	margin-top: 10px;
 	padding-top: 1%;
 	background-color: #1C212B;
 	font-family:'Waiting for the Sunrise', cursive;
