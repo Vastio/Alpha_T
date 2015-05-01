@@ -225,7 +225,7 @@ hr {
 }
 
 .blog-footer .social .fa-twitter {
-	padding: 10px;
+	padding: 8px;
 	border-radius:999em;   
 	-moz-border-radius:999em; 
 	-webkit-border-radius:999em;
@@ -235,8 +235,12 @@ hr {
 	color: white;
 }
 
+.blog-footer .social .fa-twitter:hover {
+	border-color: #f38218;
+}
+
 .blog-footer .social .fa-google-plus {
-	padding: 10px;
+	padding: 8px;
 	border-radius:999em;   
 	-moz-border-radius:999em; 
 	-webkit-border-radius:999em;
@@ -246,8 +250,12 @@ hr {
 	color: white;
 }
 
+.blog-footer .social .fa-google-plus:hover {
+	border-color: #f38218;
+}
+
 .blog-footer .social .fa-github-alt {
-	padding: 10px;
+	padding: 8px;
 	border-radius:999em;   
 	-moz-border-radius:999em; 
 	-webkit-border-radius:999em;
@@ -257,8 +265,12 @@ hr {
 	color:  white;
 }
 
+.blog-footer .social .fa-github-alt:hover {
+	border-color: #f38218;
+}
+
 .blog-footer .social .fa-envelope-o {
-	padding: 10px;
+	padding: 8px;
 	border-radius:999em;   
 	-moz-border-radius:999em; 
 	-webkit-border-radius:999em;
@@ -266,6 +278,10 @@ hr {
 	border-color: white; 
 	background-color: #00002b;
 	color: white;
+}
+
+.blog-footer .social .fa-envelope-o:hover {
+	border-color: #f38218;
 }
 
 .blog-footer .license {
