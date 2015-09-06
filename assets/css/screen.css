@@ -75,9 +75,9 @@ hr {
 .main-header-content .message {
     padding-top: 7px;
 	text-align: center;
-	color: white;
+	color: lightslategrey;
 	font-size: 21px;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 }
 
 .archive-template .main-header-content .button {
@@ -94,7 +94,7 @@ hr {
 .home-template .main-header-content .button .btn-default {
 	border-color: #363F45;
 	border-style: hidden;
-	color: white;
+	color: lightslategrey;
 	background-color: transparent;
 }
 
@@ -133,11 +133,11 @@ hr {
 }
 
 .main-container {
-	width: 75%;
+	width: 80%;
 	position: relative;
 	bottom: -7%;
-	right: -7%;
-	left: 7%;
+	right: -10%;
+	left: 10%;
 	font-family: 'Poiret One', cursive;
 	top: 3%;
 }
