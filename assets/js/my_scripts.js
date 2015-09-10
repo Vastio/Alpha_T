@@ -1,7 +1,8 @@
 // fade in title and message when load page
-$(document).ready(function(){	
+$(document).ready(function () {
 	$('#div1').fadeIn(2000);
 	$('#div2').fadeIn(3000);
+    $('#div3').fadeIn(4000);
 });
 
 // fade in title and message when scroll page
@@ -18,8 +19,8 @@ $(window).scroll(function () {
 
 
 
-$(document).ready(function(){
-	$('a[href^="#"]').on('click',function (e) {
+$(document).ready(function () {
+	$('a[href^="#"]').on('click', function (e) {
 	    e.preventDefault();
 
 	    var target = this.hash,
@@ -37,7 +38,7 @@ var isScrolling = false;
 
 //Scrolls window to the next div element using the scroll wheel.
 // Scroll bug fixed! 
-$(function() {          
+$(function () {
     $('body').mousewheel(function(event, delta) {
 		if(!isScrolling){
 			isScrolling = true;
