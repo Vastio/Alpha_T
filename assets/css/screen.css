@@ -93,6 +93,7 @@ hr {
 }
 
 .main-header-content .social .fa-twitter {
+    padding: 10px;
     color: lightslategrey;
 }
 
@@ -104,6 +105,7 @@ hr {
 }
 
 .main-header-content .social .fa-google-plus {
+    padding: 10px;
     color: lightslategrey;
 }
 
@@ -115,6 +117,7 @@ hr {
 }
 
 .main-header-content .social .fa-github-alt {
+    padding: 10px;
     color: lightslategrey;
 }
 
@@ -126,6 +129,7 @@ hr {
 }
 
 .main-header-content .social .fa-envelope-o {
+    padding: 10px;
     color: lightslategrey;
 }
 
