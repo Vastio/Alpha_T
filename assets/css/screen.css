@@ -1,6 +1,8 @@
 html, body {
-	margin: 0 auto;
+    margin: 0;
+    padding: 0;
 	height: 100%;
+    position: relative;
 }
 
 a {
@@ -193,11 +195,9 @@ hr {
 }
 
 .main-container {
-	width: 80%;
+	width: 100%;
 	position: relative;
 	bottom: -7%;
-	right: -10%;
-	left: 10%;
 	font-family: 'Poiret One', cursive;
 	top: 3%;
 }
@@ -273,10 +273,14 @@ hr {
 	padding-left: 2%;
 }
 
-/**** ToDo ****/
-.blog-footer {
-	margin-top: 10px;
-	padding-top: 1%;
+.main-container .blog-footer {
+    position: absolute;
+    bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+	width: 100%;
+    color: white;
+    text-align: center;
 	background-color: #1C212B;
 	font-family:'Waiting for the Sunrise', cursive;
 }
