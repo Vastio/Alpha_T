@@ -2,7 +2,6 @@ html, body {
     margin: 0;
     padding: 0;
 	height: 100%;
-    position: relative;
 }
 
 a {
@@ -24,16 +23,6 @@ hr {
 	background-image: linear-gradient(to right, rgba(0,0,0,0) 22.3%, rgba(0,0,0,0.20) 50%, rgba(0,0,0,0) 73.6%);
 }
 
-/* .home-template .main-header-background {
-	position: relative;
-	height: 100%;
-	min-height: 100%;
-	width: 100%;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-} */
-
 .main-header {
 	position: relative;
 	height: 100%;
@@ -50,21 +39,14 @@ hr {
 	color: #07264b;
 }
 
-.archive-template .main-header {
-	max-height: 40%;
-}
-
 .main-header-content {
-	font-family:'Waiting for the Sunrise', cursive;
-	text-align: center;
-}
-
-.home-template .main-header-content {
-	position: absolute;
+    position: absolute;
 	top: 30%;
 	bottom: 27%;
 	left: 25%;
 	right: 25%;
+	font-family:'Waiting for the Sunrise', cursive;
+	text-align: center;
 	font-family:'Waiting for the Sunrise', cursive;
 	text-align: center;
 }
@@ -87,6 +69,8 @@ hr {
 
 .main-header-content .social {
     padding-top: 50px;
+    padding: 10px;
+    color: lightslategrey;
 }
 
 .main-header-content .social .fa-border {
@@ -142,67 +126,65 @@ hr {
     color: white;
 }
 
-.archive-template .main-header-content .button {
-	display: none;
-}
-
-.home-template .main-header-content .button {
+.main-header-content .button {
 	text-align: center;
 	position: relative;
 	padding-top: 10%;
 	border-color: #463a3a;
 }
 
-.home-template .main-header-content .button .btn-default {
+.main-header-content .button .btn-default {
 	border-color: #363F45;
 	border-style: hidden;
 	color: lightslategrey;
 	background-color: transparent;
 }
 
-.home-template .main-header-content .button .btn-default:hover {
+.main-header-content .button .btn-default:hover {
 	border-style: solid;
 	color: #f38218;
 	border-width: thin;
 	border-radius: 999em;
 }
 
-.main-container-top {
+.container-top {
 	padding-top: 35px;
 	padding-right: 50px;
 	padding-left: 50px;
 }
 
-.main-container-top img {
+.container-top img {
 	width: 45px;
 	height: 45px;
 }
 
-.main-container-top .fa-border {
+.container-top .fa-border {
 	border-width: thin;
 }
 
-.main-container-top .fa-rss {
+.container-top .fa-rss {
 	background-color: #ff8615;
 }
 
-.main-container-top a {
+.container-top a {
 	color: white;
 }
 
-.main-container-top a:hover {
+.container-top a:hover {
 	color: red;
 }
 
 .main-container {
-	width: 100%;
-	position: relative;
-	bottom: -7%;
-	font-family: 'Poiret One', cursive;
-	top: 3%;
+    width: 80%;
+    position: relative;
+    top: 3%;
+    right: -10%;
+	left: 10%;
+    padding-bottom: 50px;
 }
 
 .main-container .post {
+	font-family: 'Poiret One', cursive;
 	font-size: 18px;
 	padding: 25px 7%;
 }
@@ -225,13 +207,6 @@ hr {
 	padding-top: 5px;
 	font-style: italic;
 	font-size: 14px;
-}
-
-.main-container .post .post-full {
-	text-indent: 1px;
-	word-spacing: 1px;
-	padding-top: 10px;
-	padding-bottom: 20px;
 }
 
 .main-container .post .post-meta {
@@ -267,20 +242,15 @@ hr {
 	padding-left: 12px;
 }
 
-.post-header {
-	padding-top: 2%;
-	padding-right: 2%;
-	padding-left: 2%;
-}
-
 .main-container .blog-footer {
     position: absolute;
     bottom: 0px;
-    padding-top: 5px;
-    padding-bottom: 5px;
 	width: 100%;
-    color: white;
+}
+
+.main-container .blog-footer .copyright {
+    background-color: #1C212B;
+    font-family:'Waiting for the Sunrise', cursive;
     text-align: center;
-	background-color: #1C212B;
-	font-family:'Waiting for the Sunrise', cursive;
+    color: aliceblue;
 }

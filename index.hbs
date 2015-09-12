@@ -21,7 +21,7 @@
 </header>
 
 {{! Blog section }}
-<div class="main-container-top" id="blog-section">
+<div class="container-top" id="blog-section">
 	<div class="row">
 	<div class="col-sm-6 col-md-6 col-lg -6 text-left">
 		{{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}">
@@ -33,13 +33,11 @@
 	</div>
 </div>
 <div class="main-container"> <!-- Main container -->
-
-	{{! partials/loop.hbs }}
-	{{> "loop" }}
-	
+    
+    {{! partials/loop.hbs }}
+    {{> "loop" }}
+    
     {{! Page Footer: partials/page_footer }}
     {{> page_footer }}
-	
     {{ghost_foot}}
-	
 </div> <!-- End Main container -->

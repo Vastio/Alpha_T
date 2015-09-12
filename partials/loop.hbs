@@ -1,5 +1,8 @@
 {{! Post loop }}
 
+ {{! Post container }}
+<div class="post-container">
+
 {{! Posts enum }}
 {{#foreach posts}}
 	<article class="post">
@@ -35,3 +38,8 @@
 {{/foreach}}
 
 {{pagination}}
+
+</div>
+{{! Page Footer: partials/page_footer }}
+{{> page_footer }}
+{{ghost_foot}}
