@@ -210,6 +210,9 @@ hr {
 }
 
 .main-container .post .post-meta {
+    padding-top: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
 	font-size: 14px;
 	text-indent: 2px;
 	letter-spacing: 1px;
@@ -242,15 +245,14 @@ hr {
 	padding-left: 12px;
 }
 
-.main-container .blog-footer {
-    position: absolute;
-    bottom: 0px;
-	width: 100%;
-}
-
-.main-container .blog-footer .copyright {
-    background-color: #1C212B;
-    font-family:'Waiting for the Sunrise', cursive;
+.blog-footer {
+    color: darkgray;
     text-align: center;
-    color: aliceblue;
+    font-size: 11px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #363F45;
+    border-top-style: solid;
+    border-top-width: thin;
+    border-top-color: #ff8615;
 }
