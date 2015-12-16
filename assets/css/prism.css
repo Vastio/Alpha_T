@@ -1,4 +1,4 @@
-/* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+bash+c+cpp+git+java+makefile+markdown+perl+python+swift+tcl&plugins=line-highlight+line-numbers+autolinker+show-language */
+/* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+bash+c+cpp+ruby+git+java+perl+python+swift+tcl&plugins=line-highlight+line-numbers+show-language */
 /**
  * prism.js default theme for JavaScript, CSS and HTML
  * Based on dabblet (http://dabblet.com)
@@ -63,6 +63,7 @@ pre[class*="language-"] {
 :not(pre) > code[class*="language-"] {
 	padding: .1em;
 	border-radius: .3em;
+	white-space: normal;
 }
 
 .token.comment,
@@ -223,14 +224,11 @@ pre.line-numbers > code {
 			padding-right: 0.8em;
 			text-align: right;
 		}
-.token a {
-	color: inherit;
-}
-pre[class*='language-'] {
+div.prism-show-language {
 	position: relative;
 }
-pre[class*='language-'][data-language]::before {
-	content: attr(data-language);
+
+div.prism-show-language > div.prism-show-language-label[data-language] {
 	color: black;
 	background-color: #CFCFCF;
 	display: inline-block;
@@ -255,3 +253,4 @@ pre[class*='language-'][data-language]::before {
 	-o-transform: none;
 	transform: none;
 }
+
