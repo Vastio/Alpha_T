@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<title>{{meta_title}}</title>
+	<meta content="{{meta_description}}" name="description" />
+	<meta content="{{author.name}}" name="author" />
+	<meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+
+	<!-- CSS include -->
+	<link rel="stylesheet" href="{{asset "css/bootstrap.css"}}" />
+	<link rel="stylesheet" href="{{asset "css/screen.css"}}" />
+	<link rel="stylesheet" href="{{asset "css/prism.css"}}" />
+
+	<!-- Fonts -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+	<link href='http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<!--[if IE]>
+	<script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	{{! Ghost style and metadata }}
+	{{ghost_head}}
+    </head>
+    <body class="{{body_class}}" id="intro">
+        {{! ***** Body ***** }}
+
+        <!-- JavaScript include -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="{{asset "js/prism.js"}}" type="text/javascript"></script>
+        <script src="{{asset "js/bootstrap.min.js"}}" type="text/javascript"></script>
+    </body>
+</html>
