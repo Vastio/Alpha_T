@@ -62,3 +62,10 @@ hr {
 	letter-spacing: 3px;
 }
 
+.main-header-content .message {
+    padding-top: 7px;
+	color: lightslategrey;
+	font-size: 21px;
+	letter-spacing: 2px;
+}
+
