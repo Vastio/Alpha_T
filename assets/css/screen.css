@@ -69,3 +69,29 @@ hr {
 	letter-spacing: 2px;
 }
 
+.main-header-content .social-buttons {
+    padding-top: 70px;
+    padding: 10px;
+}
+
+.main-header-content .button-down {
+	text-align: center;
+	position: relative;
+	padding-top: 10%;
+	border-color: #463a3a;
+}
+
+.main-header-content .button-down .btn-default {
+	border-color: #363F45;
+	border-style: hidden;
+	color: lightslategrey;
+	background-color: transparent;
+}
+
+.main-header-content .button-down .btn-default:hover {
+	border-style: solid;
+	color: #f38218;
+	border-width: thin;
+	border-radius: 999em;
+}
+
