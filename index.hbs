@@ -12,10 +12,15 @@
             </ul>
         </div>
         <div class="button-down animated zoomIn">
-            <a href="#blog-section" class="btn btn-default animated bounce" data-offset="-45">
+            <a href="#content" class="btn btn-default animated bounce" data-offset="-45">
                 <i class="fa fa-angle-double-down fa-2x"></i>
             </a>
         </div>
     </div>
 </header>
+
 {{! Blog Section }}
+<main id="content" class="content">
+    {{! partials/loop.hbs }}
+    {{> "loop" }}
+</main>
