@@ -95,3 +95,14 @@ hr {
 	border-radius: 999em;
 }
 
+.blog-footer {
+    color: darkgray;
+    text-align: center;
+    font-size: 11px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #363F45;
+    border-top-style: solid;
+    border-top-width: thin;
+    border-top-color: #ff8615;
+}
