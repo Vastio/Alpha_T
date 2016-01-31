@@ -2,7 +2,10 @@
 
 <header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
     <div class="main-header-content">
-        <div class="title animated fadeInUp">{{@blog.title}}</div>
+        <div class="logo">
+            {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}">
+            <img src="{{@blog.logo}}" alt="Blog Logo" class="img-circle animated slideInDown"/></a>{{/if}}
+        </div>
         <div class="message animated fadeInLeft">
             <p>{{@blog.description}}</p>
         </div>
