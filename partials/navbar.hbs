@@ -1,5 +1,18 @@
+{{! Navbar fixed to topm of the blog }}
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
-
+        <div class="navbar-header">
+            <a class="navbar-brand" href="{{@blog.url}}/#content">{{@blog.title}}</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <form class="navbar-form navbar-right" role="search">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search" name="q">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
 </nav>
