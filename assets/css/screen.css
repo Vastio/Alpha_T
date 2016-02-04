@@ -133,6 +133,54 @@ hr {
     padding-bottom: 50px;
 }
 
+.content .post {
+    font-family: 'Poiret One', cursive;
+	font-size: 18px;
+	padding: 25px 7%;
+}
+
+.content .post .post-header {
+	padding: 5px 3px;
+}
+
+.content .post .post-header h2 {
+	font-size: 32px;
+	letter-spacing: 1px;
+	text-align: left;
+	font-weight: bold;
+	font-style: italic;
+	text-indent: 1px;
+}
+
+.content .post .post-header time {
+	padding-left: 10px;
+	padding-top: 5px;
+	font-style: italic;
+	font-size: 14px;
+}
+
+.content .post .post-meta {
+    padding-top: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+	font-size: 14px;
+	text-indent: 2px;
+	letter-spacing: 1px;
+}
+
+.content .post .post-meta .tags a {
+	color: white;
+}
+
+.content .post .post-meta .tags a:hover {
+	text-decoration: none;
+	color: #f38218;
+}
+
+.content .post .post-meta time {
+	padding-right: 10px;
+	padding-left: 4px;
+}
 
 
 /*
