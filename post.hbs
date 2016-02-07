@@ -1,6 +1,7 @@
 {{!< default}}
-<div class="content">
+{{> navbar}}
 
+<div class="content">
 	<article class="post">
 	{{#post}}
 		<header class="post-header">
@@ -23,10 +24,10 @@
 		  	 	  {{/foreach}}
 		  	 	</ul></p>
 		  	 </div>
-		  	 <div class="col-md-6 share text-center">
+		  	 <div class="col-md-6 share text-right">
 		  	 	Share this post on:
 		  	 	<ul class="list-inline">
-		  	 		{{> share-post }}
+		  	 		{{> share-post}}
 		  	 	</ul>
 		  	 </div>
 		   </div>
@@ -34,7 +35,7 @@
 		</footer>
 	{{/post}}
 	{{! Start Disqus }}
-		<!-- Here disqus code -->
+		{{!> disqus}}
 	{{! End Disqus }}
 	</article>
 </div> <!-- End main-container -->
