@@ -28,6 +28,16 @@ hr {
     color: #f38218;
 }
 
+.navbar-default .navbar-collapse .icons {
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 7px;
+}
+
+.navbar-default .navbar-collapse .icons a {
+    padding: 0;
+}
+
 
 /*
  * Blog header
