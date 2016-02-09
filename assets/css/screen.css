@@ -111,6 +111,61 @@ hr {
     padding: 10px;
 }
 
+.main-header-content .social-buttons a {
+    color: transparent;
+}
+
+.main-header-content .social-buttons .fa-twitter {
+    border-color: #00aced;
+	border-style: hidden;
+    color: #00aced;
+}
+
+.main-header-content .social-buttons .fa-twitter:hover {
+    border-style: solid;
+	color: #f38218;
+	border-width: thin;
+	border-radius: 999em;
+}
+
+.main-header-content .social-buttons .fa-google-plus {
+    border-color: #dd4b39;
+	border-style: hidden;
+    color: #dd4b39;
+}
+
+.main-header-content .social-buttons .fa-google-plus:hover {
+    border-style: solid;
+	color: #f38218;
+	border-width: thin;
+	border-radius: 999em;
+}
+
+.main-header-content .social-buttons .fa-github-alt {
+    border-color: #363F45;
+	border-style: hidden;
+}
+
+.main-header-content .social-buttons .fa-github-alt:hover {
+    border-style: solid;
+	color: #f38218;
+	border-width: thin;
+	border-radius: 999em;
+}
+
+.main-header-content .social-buttons .fa-rss {
+    border-color: #f38218;
+	border-style: hidden;
+    color: #f38218;
+}
+
+.main-header-content .social-buttons .fa-rss:hover {
+    border-style: solid;
+	color: #f38218;
+	border-width: thin;
+	border-radius: 999em;
+}
+
 .main-header-content .button-down {
 	text-align: center;
 	position: relative;
