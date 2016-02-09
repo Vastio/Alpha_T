@@ -24,6 +24,14 @@ hr {
 	background-image: linear-gradient(to right, rgba(0,0,0,0) 22.3%, rgba(0,0,0,0.20) 50%, rgba(0,0,0,0) 73.6%);
 }
 
+
+/*
+ * Boostrap navbar customization
+ */
+.navbar-default {
+    background-color: #363F45;
+}
+
 .navbar-default .navbar-brand:hover {
     color: #f38218;
 }
@@ -31,7 +39,7 @@ hr {
 .navbar-default .navbar-collapse .icons {
     padding-left: 30px;
     padding-right: 10px;
-    padding-top: 7px;
+    padding-top: 8px;
 }
 
 .navbar-default .navbar-collapse .icons a {
