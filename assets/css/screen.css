@@ -46,6 +46,11 @@ hr {
     padding: 0;
 }
 
+.navbar-default .navbar-collapse .icons a:hover {
+  color: #f38218;
+}
+
+
 
 /*
  * Blog header
