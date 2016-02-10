@@ -74,12 +74,18 @@ hr {
 
 .main-header-content {
     position: absolute;
-	top: 27%;
-	bottom: 27%;
+	top: 12%;
 	left: 25%;
 	right: 25%;
 	font-family:'Waiting for the Sunrise', cursive;
     text-align: center;
+}
+
+.main-header-content .title {
+	font-size: 50px;
+	color: #ff8615;
+	letter-spacing: 3px;
+	text-align: center;
 }
 
 .main-header-content .logo {
@@ -107,8 +113,7 @@ hr {
 }
 
 .main-header-content .social-buttons {
-    padding-top: 70px;
-    padding: 10px;
+    padding-top: 35px;
 }
 
 .main-header-content .social-buttons a {
