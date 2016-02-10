@@ -161,6 +161,19 @@ hr {
 
 .main-header-content .social-buttons .fa-rss:hover {
     border-style: solid;
+	color: whitesmoke;
+	border-width: thin;
+	border-radius: 999em;
+}
+
+.main-header-content .social-buttons .fa-envelope {
+    border-color: #0C84B7;
+	border-style: hidden;
+    color: #0C84B7;
+}
+
+.main-header-content .social-buttons .fa-envelope:hover {
+    border-style: solid;
 	color: #f38218;
 	border-width: thin;
 	border-radius: 999em;
