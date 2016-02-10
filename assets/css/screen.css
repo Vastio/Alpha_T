@@ -194,10 +194,8 @@ hr {
 }
 
 .main-header-content .button-down .btn-default:hover {
-	border-style: solid;
+	border-style: none;
 	color: #f38218;
-	border-width: thin;
-	border-radius: 999em;
 }
 
 
