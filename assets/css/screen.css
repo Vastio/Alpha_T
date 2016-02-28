@@ -55,7 +55,6 @@ hr {
 /*
  * Blog header
  */
-
 .main-header {
 	position: relative;
 	height: 100%;
@@ -74,7 +73,7 @@ hr {
 
 .main-header-content {
     position: absolute;
-	top: 12%;
+	top: 27%;
 	left: 25%;
 	right: 25%;
 	font-family:'Waiting for the Sunrise', cursive;
@@ -88,6 +87,7 @@ hr {
 	text-align: center;
 }
 
+/****
 .main-header-content .logo {
 	padding-top: 2%;
     padding-bottom: 40px;
@@ -102,7 +102,8 @@ hr {
     border-style: solid;
     border-color: #f38218;
     border-width: 2px;
-}
+} 
+****/
 
 .main-header-content .message {
     padding-top: 7px;
@@ -113,7 +114,7 @@ hr {
 }
 
 .main-header-content .social-buttons {
-    padding-top: 35px;
+    padding-top: 20%;
 }
 
 .main-header-content .social-buttons a {
@@ -187,7 +188,7 @@ hr {
 .main-header-content .button-down {
 	text-align: center;
 	position: relative;
-	padding-top: 10%;
+	padding-top: 15%;
 	border-color: #463a3a;
 }
 
